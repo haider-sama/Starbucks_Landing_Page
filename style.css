@@ -1,0 +1,356 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.c-w {
+    color: #fff;
+}
+.c-g-p {
+    color: #1e3932;
+}
+.b-p {
+    background: #efabfc;
+}
+.b-g-s {
+    background: #bbf2d1;
+}
+.b-b-p {
+    background: #337481;
+}
+.b-b-s {
+    background: #a5c4dc;
+}
+header {
+    display: flex;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2), 0 4px 12px 0 rgba(0, 0, 0, 0.19);
+}
+header nav {
+    display: flex;
+}
+nav .logo img{
+    width: 4rem;
+    height: 4rem;
+    margin: 1rem 2rem 1rem 2rem;
+    cursor: pointer;
+}
+nav ul li {
+    display: inline-block;
+    padding: 2.5rem 1rem 0rem 0rem;
+}
+nav ul li a{
+    text-decoration: none;
+    letter-spacing: 1px;
+    color: #000;
+    font-weight: 800;
+}
+nav ul li a:hover{
+    color: green;
+    transition: .1s all ease;
+}
+.curr_location{
+    margin: 2.5rem 2rem 2rem 30rem;
+}
+.curr_location a{
+    text-decoration: none;
+    color: #000;
+    font-weight: 800;
+}
+.curr_location a:hover{
+    color: green;
+    transition: .1s all ease;
+}
+.curr_location i {
+    padding-right: 1rem;
+}
+.register_btn button {
+    margin: 2.5rem 0rem 2rem 2rem;
+}
+.register_btn .sign_in {
+    border: 1px solid #000;
+    border-radius: 16px;
+    padding: 4px 16px 4px 16px;
+    background: transparent;
+    font-weight: 600;
+    cursor: pointer;
+}
+.register_btn .sign_in:hover {
+    background: lightgray;
+}
+.register_btn .join{
+    border-radius: 16px;
+    border: 1px solid #000;
+    padding: 4px 16px 4px 16px;
+    background: #000;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+}
+.register_btn .join:hover {
+    background: lightgray;
+}
+.bg__1 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 2rem;
+}
+.bg__1 img {
+    width: 675px;
+    height: 585px;
+}
+.bg__1 .drink__content {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 585px;
+}
+.bg__1 .drink__content .title__1 {
+    font-size: 4rem;
+    font-weight: 800;
+}
+.bg__1 .drink__content .title__2 {
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+.bg__1_btn {
+    border-radius: 16px;
+    border: 1px solid #000;
+    padding: 4px 16px 4px 16px;
+    background: transparent;
+    font-weight: 600;
+    cursor: pointer;
+    width: fit-content;
+    font-size: 16px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.bg__1_btn:hover {
+    background: lightgreen;
+}
+.bg__2_btn {
+    border-radius: 16px;
+    border: 1px solid #fff;
+    padding: 4px 16px 4px 16px;
+    background: transparent;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    width: fit-content;
+    font-size: 16px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.bg__2_btn:hover {
+    background: darkcyan;
+}
+.bg__3_btn {
+    border-radius: 16px;
+    border: 1px solid #000;
+    padding: 4px 16px 4px 16px;
+    background: transparent;
+    font-weight: 600;
+    color: #000;
+    cursor: pointer;
+    width: fit-content;
+    font-size: 16px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.bg__3_btn:hover {
+    background: #eb59c1;
+}
+.bg__4_btn {
+    border-radius: 16px;
+    border: 1px solid #000;
+    padding: 4px 16px 4px 16px;
+    background: transparent;
+    font-weight: 600;
+    color: #000;
+    cursor: pointer;
+    width: fit-content;
+    font-size: 16px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.bg__4_btn:hover {
+    background: darkcyan;
+}
+.bg__5_btn {
+    border-radius: 16px;
+    border: 1px solid #1e3932;
+    padding: 4px 16px 4px 16px;
+    background: transparent;
+    font-weight: 600;
+    color: #1e3932;
+    cursor: pointer;
+    width: fit-content;
+    font-size: 16px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.bg__5_btn:hover {
+    background: #51ad95;
+}
+.bg__2 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 2rem;
+}
+.bg__2 img {
+    width: 675px;
+    height: 385px;
+}
+.bg__2 .drink__content {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 385px;
+    background: #d4e9e2;
+}
+.bg__2 .drink__content .title__1 {
+    font-size: 2rem;
+    font-weight: 800;
+}
+.bg__2 .drink__content .title__2 {
+    font-size: 1.5rem;
+    font-size: 1rem;
+    font-weight: 400;
+}
+.bg__3 {
+    text-align: center;
+    margin: 6rem 16rem 6rem 16rem;
+    font-size: 14px;
+}
+.bg__3 .title__4 {
+    margin-top: 6rem;
+}
+.external__links {
+    display: flex;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 8px 24px 0 rgba(0, 0, 0, 0.19);
+}
+.external__links h3 {
+   margin: 2rem 2rem 2rem 2rem;
+}
+.external__links ul li {
+    margin: 2rem 2rem 2rem 2rem;
+    list-style: none;
+}
+.external__links ul li a {
+    text-decoration: none;
+    color: #796b79;
+}
+.external__links ul li a:hover {
+    text-decoration: none;
+    color: #000;
+}
+
+footer {
+    margin: 4rem 2rem 0rem 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    border-top: 1px solid lightgray;
+    text-align: center;
+    color: #796b79;
+}
+
+@media (max-width: 952px){
+    nav ul li {
+        display: none;
+    }
+    .curr_location{
+        display: none;
+    }
+    .register_btn {
+        display: none;
+    }
+    .bg__1 {
+        display: flex;
+        flex-direction: column;
+    }
+    .bg__1 img {
+        width: 100%;
+        height: fit-content;
+    }
+    .bg__1 .drink__content {
+        height: 100%;
+    }
+    .bg__2 {
+        display: flex;
+        flex-direction: column;
+    }
+    .bg__2 img {
+        width: 100%;
+        height: fit-content;
+    }
+    .bg__2 .drink__content {
+        height: 100%;
+    }
+    .bg__3 {
+        text-align: center;
+        margin: 4rem 4rem 2rem 4rem;
+        font-size: 12px;
+    }
+    .bg__3 .title__4 {
+        margin-top: 6rem;
+    }
+    .external__links .partners {
+        display: none;
+    }
+    .external__links .order_pickup {
+        display: none;
+    }
+}
+
+@media (max-width: 858px){
+nav ul li {
+    display: none;
+}
+.curr_location{
+    display: none;
+}
+.register_btn {
+    display: none;
+}
+.bg__1 {
+    display: flex;
+    flex-direction: column;
+}
+.bg__1 img {
+    width: 100%;
+    height: fit-content;
+}
+.bg__1 .drink__content {
+    height: 100%;
+}
+.bg__2 {
+    display: flex;
+    flex-direction: column;
+}
+.bg__2 img {
+    width: 100%;
+    height: fit-content;
+}
+.bg__2 .drink__content {
+    height: 100%;
+}
+.bg__3 {
+    text-align: center;
+    margin: 4rem 4rem 2rem 4rem;
+    font-size: 12px;
+}
+.bg__3 .title__4 {
+    margin-top: 6rem;
+}
+.external__links .partners {
+    display: none;
+}
+.external__links .order_pickup {
+    display: none;
+}
+}
